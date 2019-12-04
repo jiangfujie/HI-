@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/HI_music.css"> -->
+    <style>
+        *{padding:0;margin:0;box-sizing: border-box;}
+        .f1{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .in1{
+            width:200px;
+            border-radius: 20px;
+            height:35px;
+            margin-top: 5px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .im{
+            width:40px;
+        }
+        .in1:hover{
+            border-radius:20px;
+        }
+        .border{
+            border:1px solid black;
+        }
+        .w-95{
+            width:95%;
+            margin:0 auto;
+        }
+        .w-100{
+            width:100%;
+        }
+        .around{
+            display: flex;
+            justify-content: space-around;}
+        .m-t{
+            margin-top: 10px;
+        }
+        .list{
+            list-style: none;
+        }
+        .li{
+            display: inline-block;
+        }
+        .a{
+            text-decoration: none;
+            color:#31c27c;
+            text-align: center;
+        }
+        .four{
+            width:45%;
+            height:5rem;
+            border-radius: 5px;
+        }
+        .four1{
+            background: url("public/img/four1.jpg");
+        }
+        .four2{
+            background: url("public/img/four3.jpg");
+        }
+        .w10{
+            width:3.5rem;
+        }
+        .text-center{
+            margin:auto 0;
+        }
+        .size{
+            font-size: 10px;
+        }
+        .float{
+            float: left;
+        }
+        .lunbo{
+            width:360px;
+            margin:0 auto;
+        }
+        #banner{
+            width:360px;
+            overflow: hidden;
+            position:relative;
+        }
+        #ul-img{
+            list-style: none;
+            width:2160px;
+            margin-left: 0;
+
+        }
+        #ul-img>li{
+            width:360px;
+            float: left;
+        }
+        #ul-img.transition{
+            transition: all 0.5s linear;
+        }
+        #ul-img img{
+            width:360px;
+            border-radius: 10px
+        }
+        #ul-dian{
+            width:60px;
+            margin:0 auto;
+            list-style: none;
+            position: absolute;
+            bottom: 35px;
+            left:50%;
+            margin-left: -25px;
+        }
+        #ul-dian>li{
+            width:10px;
+            height:10px;
+            float: left;
+            background: #fff;
+            border-radius: 5px;
+            cursor:pointer;
+            margin:0 1px;
+        }
+        #ul-dian>li.active{
+            background: #31c27c;
+        }
+        .a1{
+            display: inline-block;
+            text-decoration: none;
+            float: right;
+            color:#000;
+            font-weight: bold;
+        }
+        .font1{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .mm{
+            width: 100%;
+            position: fixed;
+            justify-content: space-between;
+        }
+        .mu{
+            width:30%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="w-95 around">
+        <font class="f1">音乐馆</font>
+        <input type="text" placeholder="搜索" class="in1">
+        <a href=""> <img class="im" src="public/img/音乐.png" alt=""></a>
+    </div>
+    <div class="lunbo m-t">
+        <div id="banner">
+            <ul id="ul-img">
+             <li><a href="javascript:;"><img src="public/img/banner1.jpg" alt=""></a></li>
+             <li><a href="javascript:;"><img src="public/img/banner2.jpg" alt=""></a></li>
+             <li><a href="javascript:;"><img src="public/img/banner3.jpg" alt=""></a></li>
+             <li><a href="javascript:;"><img src="public/img/banner4.jpg" alt=""></a></li>
+             <li><a href="javascript:;"><img src="public/img/banner5.jpg" alt=""></a></li>
+             <li><a href="javascript:;"><img src="public/img/banner1.jpg" alt=""></a></li>
+            </ul>
+            <ul id="ul-dian">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        </div>
+        
+    </div>
+    <div>
+        <ul class="around list m-t">
+            <li class="li"><a href="" class="a">
+                <img class="im" src="public/img/歌手.png" alt="">
+                <p>歌手</p>
+            </a></li>
+            <li class="li"><a href="" class="a">
+                <img class="im" src="public/img/排行.png" alt="">
+                <p>排行</p>
+            </a></li>
+            <li class="li"><a href="" class="a">
+                <img class="im" src="public/img/类目 品类 分类 类别.png" alt="">
+                <p>分类</p>
+            </a></li>
+            <li class="li"><a href="" class="a">
+                <img class="im" src="public/img/我的电台.png" alt="">
+                <p>电台</p>
+            </a></li>
+        </ul>
+    </div>
+    <div class="around m-t">
+        <div class="four four1">
+            <div class="around m-t">
+                <div class="">
+                    <img class="w10" src="public/img/kun.jpg" alt="">
+                </div>
+                <div class="">
+                    <h5>新歌新碟</h5>
+                    <font class="size">蔡徐坤鸡你太美</font>
+                </div>
+            </div>
+        </div>
+        <div class="four four2">
+            <div class="around m-t">
+                <div>
+                    <img class="w10" src="public/img/2.jpg" alt="">
+                </div>
+                <div>
+                    <h5>经典热歌</h5>
+                    <font class="size">亚洲top前10</font>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-t w-95">
+        <div> <font class="font1">官方歌单</font> <a href="" class="a1">更多 ></a></div>
+        <div class="mm">
+            <div></div>
+        </div>
+    </div>
+    <script>
+       var i=0;
+        var DURATION=500;
+        var LIWIDTH=360;
+        var LICONT=5;
+        var ulimg=document.getElementById("ul-img");
+        var uldian=document.getElementById("ul-dian");
+        var lis=uldian.children;
+        function moveTo(to){
+            if(to==undefined){
+                to=i+1;
+            }
+            if(i==0){
+                ulimg.className="transition";
+            }
+            i=to;
+            ulimg.style.marginLeft=-i*LIWIDTH+"px";
+            for(var li of lis){
+                li.className=""
+            }
+            if(i==LICONT){
+                i=0;
+                setTimeout(function(){
+                    ulimg.className="";
+                    ulimg.style.marginLeft=0;
+                },DURATION)
+            }
+            lis[i].className="active";
+        }
+        var timer=setInterval(function(){
+            moveTo();
+        },3000);
+        var banner=document.getElementById("banner");
+        banner.onmouseover=function(){
+            clearInterval(timer);
+        }
+        banner.onmouseout=function(){
+            timer=setInterval(function(){
+                moveTo();
+            },3000);
+        }
+    </script>
+</body>
+</html>
