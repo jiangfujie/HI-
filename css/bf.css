@@ -1,0 +1,144 @@
+.imggg{
+	width: 60	px;
+	height: 25px;
+}
+.yuan{
+	border-radius: 50%;
+	border: 8px solid #9bc5c3;
+	width: 280px;
+	height: 280px;
+	margin: 40px auto 0px auto;
+}
+.imgbf{
+	width: 266px;
+	height: 265px;
+  border-radius: 50%;
+}
+#imgbf{
+  animation:s 60s linear infinite;
+  
+}
+@keyframes s{
+  0%{transform-origin:center;transform: rotate(0deg);}
+  100%{transform-origin:center;transform: rotate(360deg);}
+}
+.bgccc{
+ background: linear-gradient(to right, #616161, #9bc5c3);
+ position: relative;
+}.fzzz{
+	font-size: 20px;
+}
+.fzzzzz{
+	font-size: 25px;
+	font-weight: 1000;
+}
+.fzc{
+	color: #fff;
+}
+body,div{padding: 0;margin: 0;}
+.m-main{width:100%; height: 100%; margin: 8% auto;}
+.m-main video{display: none; }
+.m-main .player {
+  width: 100%;
+  height: 196px;
+  position: relative;
+  bottom: 0px;
+  padding: 0px auto;
+  top: 50px;
+}
+.m-main .player>a{ width: 20%; margin: 0 auto; padding: 5%; color: #FFF;display: block;
+  position: absolute;
+  top: 30%;
+  left: 38%;
+
+}
+.m-main .play-box {
+  width: 100%;
+  margin: 0 auto;
+}
+ 
+.m-main .play-box .left {
+  width: 100%;
+  float: left;
+}
+ 
+.m-main .play-box .left p.timeline { width: 70%;height: 2px; background-color: rgba(216, 216, 216, 0.5); border-radius: 5px; margin:30px auto 0; position: relative; z-index: 2; }
+.m-main .play-box .left p.timeline span {position: relative; width: 0px; height: 2px; background-color: #31c27c; border-radius: 5px; display: block; -webkit-transition: width ease-out 0.3s;-o-transition: width ease-out 0.3s;transition: width ease-out 0.3s;}
+.m-main .play-box .left p.timeline span:after{content: ""; position: absolute; top: -5px; right:-0.6rem;width: 12px; height:12px; border-radius: 50%;background-color: #FFF;}
+.m-main .play-box .left div.info { height: 26px; line-height: 26px; font-size: 14px; color: #000; position: relative; top: -15px; margin:0 10px; z-index: 1;color: #FFF;}
+.m-main .play-box .left div.info .size { float: left; display: block;}
+.m-main .play-box .left div.info .timeshow { float: right;}
+#jspause{
+  display: none;
+  text-align:center;
+}
+#jsplay{
+  display: block;
+  text-align:center;
+}
+.dimg1{
+  width: 60px;
+  height: 60px;
+}
+.dimg{
+  width: 40px;
+  height: 40px;
+}
+.imgwz1{
+  position: absolute;
+  top: 46%;
+  left: 23%;
+}
+.imgwz2{
+  position: absolute;
+  top: 46%;
+  right: 23%;
+}.dqxh{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  left: 7%;
+}
+.bflb{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  right:7%;
+}
+.xiaoimg{
+  width: 27px;
+  height: 27px;
+}
+.xiaoimg1{
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 88%;
+  left:15%;
+}
+.xiaoimg2{
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 88%;
+  left:34%;
+}
+.xiaoimg3{
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 88%;
+  right:34%;
+}
+.xiaoimg4{
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 88%;
+  right: 15%;
+}.jtimg{
+  width: 20px;
+  height: 20px;
+}

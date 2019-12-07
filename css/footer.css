@@ -1,0 +1,24 @@
+*{padding:0;margin:0;box-sizing: border-box;}
+.da{
+    background-color:#fff;
+    width: 95%;
+    margin: 0 auto;
+    height: 70px;
+    text-align: center; 
+    display:flex;
+    justify-content:space-around; 
+}li{
+    display:block;
+    float: left;
+    margin: 0px 15px;
+}
+img{
+    width: 35px;
+    height: 35px;
+}a{
+    text-decoration: none;
+    color: #bfbfbf;
+}a:hover { 
+    color:#31c27c; 
+    text-decoration:none; 
+} 
